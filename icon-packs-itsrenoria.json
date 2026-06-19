@@ -1,0 +1,42 @@
+[
+  {
+    "name": "AN (AniList)",
+    "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/AN (AniList).png"
+  },
+  {
+    "name": "IM (IMDb)",
+    "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/IM (IMDb).png"
+  },
+  {
+    "name": "LB (Letterboxd)",
+    "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/LB (Letterboxd).png"
+  },
+  {
+    "name": "MC (Metacritic)",
+    "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/MC (Metacritic).png"
+  },
+  {
+    "name": "ML (MyAnimeList)",
+    "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/ML (MyAnimeList).png"
+  },
+  {
+    "name": "PC (Popcornmeter)",
+    "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/PC (Popcornmeter).png"
+  },
+  {
+    "name": "RE (RogerEbert)",
+    "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/RE (RogerEbert).png"
+  },
+  {
+    "name": "RT (Tomatometer)",
+    "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/RT (Tomatometer).png"
+  },
+  {
+    "name": "TM (TMDB)",
+    "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/TM (TMDB).png"
+  },
+  {
+    "name": "TR (Trakt)",
+    "url": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/icon-packs/itsrenoria/TR (Trakt).png"
+  }
+]

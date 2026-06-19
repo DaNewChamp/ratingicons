@@ -1,0 +1,92 @@
+{
+  "mirrors": [
+    {
+      "name": "DaNewChamp rating icon packs",
+      "category": "Rating icons",
+      "file": "icons.json",
+      "sourceUrl": "https://danewchamp.github.io/Da-Repo/icons.json",
+      "githubPagesUrl": "https://danewchamp.github.io/Da-Repo/icons.json",
+      "rawGitHubUrl": "https://raw.githubusercontent.com/DaNewChamp/Da-Repo/main/icons.json"
+    },
+    {
+      "name": "DaNewChamp current Fusion widgets",
+      "category": "Widgets",
+      "file": "fusion-widgets.json",
+      "sourceUrl": "https://danewchamp.github.io/Da-Repo/fusion-widgets.json",
+      "githubPagesUrl": "https://danewchamp.github.io/Da-Repo/fusion-widgets.json",
+      "rawGitHubUrl": "https://raw.githubusercontent.com/DaNewChamp/Da-Repo/main/fusion-widgets.json"
+    },
+    {
+      "name": "Colored BGB combo no DV",
+      "category": "Fusion Filters",
+      "file": "fusion-filter-colored-bgb-combo-nodv.json",
+      "sourceUrl": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/presets/colored-bgb-combo-nodv.json",
+      "githubPagesUrl": "https://danewchamp.github.io/Da-Repo/fusion-filter-colored-bgb-combo-nodv.json",
+      "rawGitHubUrl": "https://raw.githubusercontent.com/DaNewChamp/Da-Repo/main/fusion-filter-colored-bgb-combo-nodv.json"
+    },
+    {
+      "name": "Streaming Services",
+      "category": "Preview Packs",
+      "file": "fusion-preview-pack-streaming-services.json",
+      "sourceUrl": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/fusion-animated-covers-services.json",
+      "githubPagesUrl": "https://danewchamp.github.io/Da-Repo/fusion-preview-pack-streaming-services.json",
+      "rawGitHubUrl": "https://raw.githubusercontent.com/DaNewChamp/Da-Repo/main/fusion-preview-pack-streaming-services.json"
+    },
+    {
+      "name": "Animated Covers",
+      "category": "Preview Packs",
+      "file": "fusion-preview-pack-animated-covers.json",
+      "sourceUrl": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/fusion-animated-covers.json",
+      "githubPagesUrl": "https://danewchamp.github.io/Da-Repo/fusion-preview-pack-animated-covers.json",
+      "rawGitHubUrl": "https://raw.githubusercontent.com/DaNewChamp/Da-Repo/main/fusion-preview-pack-animated-covers.json"
+    },
+    {
+      "name": "Studios",
+      "category": "Preview Packs",
+      "file": "fusion-preview-pack-studios.json",
+      "sourceUrl": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/fusion-animated-covers-studios.json",
+      "githubPagesUrl": "https://danewchamp.github.io/Da-Repo/fusion-preview-pack-studios.json",
+      "rawGitHubUrl": "https://raw.githubusercontent.com/DaNewChamp/Da-Repo/main/fusion-preview-pack-studios.json"
+    },
+    {
+      "name": "Decades",
+      "category": "Preview Packs",
+      "file": "fusion-preview-pack-decades.json",
+      "sourceUrl": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/fusion-animated-covers-decades.json",
+      "githubPagesUrl": "https://danewchamp.github.io/Da-Repo/fusion-preview-pack-decades.json",
+      "rawGitHubUrl": "https://raw.githubusercontent.com/DaNewChamp/Da-Repo/main/fusion-preview-pack-decades.json"
+    },
+    {
+      "name": "Genres",
+      "category": "Preview Packs",
+      "file": "fusion-preview-pack-genres.json",
+      "sourceUrl": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/fusion-animated-covers-genres.json",
+      "githubPagesUrl": "https://danewchamp.github.io/Da-Repo/fusion-preview-pack-genres.json",
+      "rawGitHubUrl": "https://raw.githubusercontent.com/DaNewChamp/Da-Repo/main/fusion-preview-pack-genres.json"
+    },
+    {
+      "name": "Awards",
+      "category": "Preview Packs",
+      "file": "fusion-preview-pack-awards.json",
+      "sourceUrl": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/fusion-animated-covers-awards.json",
+      "githubPagesUrl": "https://danewchamp.github.io/Da-Repo/fusion-preview-pack-awards.json",
+      "rawGitHubUrl": "https://raw.githubusercontent.com/DaNewChamp/Da-Repo/main/fusion-preview-pack-awards.json"
+    },
+    {
+      "name": "itsrenoria Fusion Starter Kit icon packs",
+      "category": "Rating icons",
+      "file": "icon-packs-itsrenoria.json",
+      "sourceUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/json/icon-packs/icon-packs-itsrenoria.json",
+      "githubPagesUrl": "https://danewchamp.github.io/Da-Repo/icon-packs-itsrenoria.json",
+      "rawGitHubUrl": "https://raw.githubusercontent.com/DaNewChamp/Da-Repo/main/icon-packs-itsrenoria.json"
+    },
+    {
+      "name": "Fusion widgets",
+      "category": "Widgets",
+      "file": "fusion-widgets-gist.json",
+      "sourceUrl": "https://gist.githubusercontent.com/DaNewChamp/002a4a6cca4feb54e8c9d5222aa0813c/raw/fusion-widgets.json",
+      "githubPagesUrl": "https://danewchamp.github.io/Da-Repo/fusion-widgets-gist.json",
+      "rawGitHubUrl": "https://raw.githubusercontent.com/DaNewChamp/Da-Repo/main/fusion-widgets-gist.json"
+    }
+  ]
+}

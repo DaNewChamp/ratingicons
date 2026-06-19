@@ -1,0 +1,1886 @@
+{
+  "exportType": "fusionWidgets",
+  "exportVersion": 1,
+  "widgets": [
+    {
+      "cacheTTL": 1800,
+      "dataSource": {
+        "kind": "tmdbDiscover",
+        "payload": {
+          "sortBy": "trending.week",
+          "type": "movie",
+          "voteCountGTE": 20
+        }
+      },
+      "id": "starter.hero.weekly",
+      "limit": 10,
+      "presentation": {
+        "aspectRatio": "backdrop",
+        "badges": {
+          "providers": false,
+          "ratings": true
+        },
+        "cardStyle": "large",
+        "overlay": "frost"
+      },
+      "sort": "trending.day",
+      "title": "Weekly Spotlight",
+      "type": "hero.banner"
+    },
+    {
+      "dataSource": {
+        "kind": "collection",
+        "payload": {
+          "items": [
+            {
+              "dataSources": [],
+              "hideTitle": false,
+              "id": "d2c24906-d762-4286-84ea-cf26dc135fad",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/vH9k7TLG/watchlist.png",
+              "title": "Watchlist"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158678",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "499f40ad-72c2-4b47-8f56-b3837d6676a9",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/gkHRm77c/trending-movies.png",
+              "title": "Trending Movies"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158679",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "ac8e3028-ddfd-419e-acda-c33d2a81014a",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/nhVmzk8c/trending-shows.png",
+              "title": "Trending Shows"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158684",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "0d8c7233-4e83-40e3-b117-0a21b6dc9c09",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/sD4SsLLj/latest-movies.png",
+              "title": "Latest Movies"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158790",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "f2a72f0d-3181-4b28-97ac-1478ef833798",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/TYJmfssR/latest-shows.png",
+              "title": "Latest Shows"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.159365",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "bbcb3e84-9bba-45d7-bbd6-084a2fd837bd",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/CxM81NyV/airing-soon.png",
+              "title": "Airing Soon"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159320",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.159327",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "8728a25e-df3c-493d-985c-83e8ab3e6599",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/K8cTzNXj/upcoming.png",
+              "title": "Upcoming"
+            }
+          ]
+        }
+      },
+      "id": "collection.9b2a369c-a4f0-4f22-8276-a7443cf592a3",
+      "title": "Discover",
+      "type": "collection.row"
+    },
+    {
+      "dataSource": {
+        "kind": "collection",
+        "payload": {
+          "items": [
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.160016",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158622",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158623",
+                    "type": "series"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.160018",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "ef2445bf-1870-47b8-8838-7af813cb5ebd",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/3R9D8yrK/netflix.png",
+              "title": "Netflix"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158635",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.160024",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158634",
+                    "type": "series"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.160029",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "f6441796-8e85-4ce3-acfd-11b36c53e104",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/pTknW9VP/disney.png",
+              "title": "Disney+"
+            },
+            {
+              "dataSources": [],
+              "hideTitle": false,
+              "id": "e8c0a95c-646f-43bd-8538-f44730091e2b",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/j5vJxWqT/apple-tv.png",
+              "title": "Apple TV"
+            },
+            {
+              "dataSources": [],
+              "hideTitle": false,
+              "id": "4e67344e-3862-48e9-b3c1-6f3f4e127d9b",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/JzkSVMTy/prime-video.png",
+              "title": "Prime Video"
+            },
+            {
+              "dataSources": [],
+              "hideTitle": false,
+              "id": "63b2c086-0e20-4483-9dd3-b4afb229707f",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/3R9D8yr8/hbo-max.png",
+              "title": "HBO Max"
+            },
+            {
+              "dataSources": [],
+              "hideTitle": false,
+              "id": "87241a63-5ea4-4f1a-9a7b-7ec8f6553ce0",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/gJ46zwcm/paramount.png",
+              "title": "Paramount+"
+            },
+            {
+              "dataSources": [],
+              "hideTitle": false,
+              "id": "2203ed25-0e32-4a34-9cc2-14d9fa3fa733",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/bNM4BsR1/hulu.png",
+              "title": "Hulu"
+            },
+            {
+              "dataSources": [],
+              "hideTitle": false,
+              "id": "9c136064-3c9a-455a-bcd4-a9596733c776",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/fR91nDHV/peacock.png",
+              "title": "Peacock"
+            },
+            {
+              "dataSources": [],
+              "hideTitle": false,
+              "id": "32b345aa-65ec-44ef-a109-f8ce107ccef5",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/4NZrCrDB/starz.png",
+              "title": "STARZ"
+            },
+            {
+              "dataSources": [],
+              "hideTitle": false,
+              "id": "d329fc08-b623-4da9-bd6c-3a1f0b184e8f",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/26RLyjtL/mubi.png",
+              "title": "MUBI"
+            },
+            {
+              "dataSources": [],
+              "hideTitle": false,
+              "id": "42f57c08-1b8c-4e65-ace7-ea60cc2fa0b1",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/Prc0RPMp/crunchyroll.png",
+              "title": "Crunchyroll"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158653",
+                    "type": "series"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158654",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "e795660f-4ac8-4834-a915-e0e879313777",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/76XTHCPD/shudder.png",
+              "title": "Shudder"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158657",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158656",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "c41b688a-2769-41d7-9f28-2034ea08a8ef",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/KctdHZHg/amc.png",
+              "title": "AMC+"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158659",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158658",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "b249f57b-9d34-44bc-b1cb-5c31c367f810",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/pX736pBm/britbox.png",
+              "title": "britbox"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158666",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158665",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "3505e831-23b6-460e-a143-22403c593c42",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/2jnPKzKL/discovery.png",
+              "title": "Discovery+"
+            }
+          ]
+        }
+      },
+      "id": "collection.48c57a39-e613-41fc-b8b3-ea00a86caef5",
+      "title": "Streaming Services",
+      "type": "collection.row"
+    },
+    {
+      "cacheTTL": 3600,
+      "dataSource": {
+        "kind": "tmdbDiscover",
+        "payload": {
+          "sortBy": "popularity.desc",
+          "type": "movie",
+          "voteCountGTE": 50
+        }
+      },
+      "id": "starter.popular.movies",
+      "limit": 30,
+      "presentation": {
+        "aspectRatio": "poster",
+        "badges": {
+          "providers": true,
+          "ratings": true
+        },
+        "cardStyle": "medium"
+      },
+      "sort": "popularity.desc",
+      "title": "Popular Movies",
+      "type": "row.classic"
+    },
+    {
+      "cacheTTL": 3600,
+      "dataSource": {
+        "kind": "tmdbDiscover",
+        "payload": {
+          "releaseChannel": "cinema",
+          "releaseStatus": "released",
+          "sortBy": "popularity.desc",
+          "type": "movie",
+          "voteCountGTE": 20
+        }
+      },
+      "id": "starter.row.theaters",
+      "limit": 20,
+      "presentation": {
+        "aspectRatio": "poster",
+        "badges": {
+          "providers": true,
+          "ratings": true
+        },
+        "cardStyle": "medium"
+      },
+      "sort": "popularity.desc",
+      "title": "In Theaters Now",
+      "type": "row.classic"
+    },
+    {
+      "cacheTTL": 3600,
+      "dataSource": {
+        "kind": "tmdbDiscover",
+        "payload": {
+          "limit": 10,
+          "sortBy": "trending.week",
+          "type": "tv",
+          "voteCountGTE": 100
+        }
+      },
+      "id": "starter.numbered.tv.weekly",
+      "limit": 10,
+      "presentation": {
+        "aspectRatio": "poster",
+        "badges": {
+          "providers": false,
+          "ratings": true
+        },
+        "cardStyle": "medium"
+      },
+      "sort": "trending.week",
+      "title": "Top 10 TV This Week",
+      "type": "row.classic.numbered"
+    },
+    {
+      "cacheTTL": 3600,
+      "dataSource": {
+        "kind": "tmdbDiscover",
+        "payload": {
+          "releaseChannel": "digital",
+          "releaseStatus": "released",
+          "sortBy": "popularity.desc",
+          "type": "movie",
+          "voteCountGTE": 30
+        }
+      },
+      "id": "starter.new.digital",
+      "limit": 20,
+      "presentation": {
+        "aspectRatio": "poster",
+        "badges": {
+          "providers": true,
+          "ratings": true
+        },
+        "cardStyle": "large"
+      },
+      "sort": "popularity.desc",
+      "title": "Recently Released",
+      "type": "row.classic"
+    },
+    {
+      "dataSource": {
+        "kind": "collection",
+        "payload": {
+          "items": [
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158812",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158835",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "65f782c8-8ecb-44f9-b13b-5189913b52cc",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/htyJ8Gtm/Horror.png",
+              "title": "Horror"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158802",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158823",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "d9bac8bd-4e6f-4e06-b9a3-de374b71f440",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/0yW6GNym/Mystery.png",
+              "title": "Mystery"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158803",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158827",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "c9374014-805e-4833-92af-cf33f9f24bc6",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/598W8k2h/Fantasy-Sci-Fi.png",
+              "title": "Fantasy / Sci-Fi"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158805",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158829",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "e6e00848-f8e8-43da-99bd-b93a27ccc14c",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/t4S1dg4K/Thriller.png",
+              "title": "Thriller"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158810",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158832",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "719ae948-d19f-46f4-ab8f-d4b22bcac747",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/kXyR4srj/Adventure.png",
+              "title": "Adventure"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158800",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158825",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "9f4c9c7f-48ca-41d7-967d-9de6c3e3cd2b",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/X7gBJLM1/Action.png",
+              "title": "Action"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158801",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158826",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "5f9004f3-b07e-4d72-a7df-0646ae687de9",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/3xJ4DGY5/Comedy.png",
+              "title": "Comedy"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158804",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158828",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "b6566c5b-0800-4517-80a2-5d02ecbfd036",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/FHsdJSNv/Crime.png",
+              "title": "Crime"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158806",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158824",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "cefc3b18-95c1-4ddd-8150-c0faca8910ba",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/Jz6y3hzv/Romance.png",
+              "title": "Romance"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158807",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158830",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "699c4536-3f09-4af9-b569-7ee88db89050",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/Gmh8sDd2/Drama.png",
+              "title": "Drama"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.160049",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "d6d3e49c-8d86-4e7d-9521-db8b42c2cdc7",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/fR237bRP/Reality-TV.png",
+              "title": "Reality TV"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158813",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158836",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "d4d14971-f566-4f3f-ae9e-d3fc8469fcd8",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/dVtkTCw0/Documentary.png",
+              "title": "Documentary"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158814",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.158837",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "ca1b070d-11b5-46fb-bca5-1715a29a4536",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/CxPZCKxR/History.png",
+              "title": "History"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158816",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "e3c542dd-c67f-4b28-bd96-7b7ff839ef91",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/527H5t28/Music.png",
+              "title": "Musical"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159674",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "a83c8439-cd1c-4a7c-b88d-9e02488b4ca0",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/htyJ8GtN/Stand-Up-Comedy.png",
+              "title": "Stand-Up Comedy"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159798",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.159802",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "0d74abf5-4b38-4a5a-a4fd-e7178ca9534e",
+              "imageAspect": "poster",
+              "imageURL": "https://i.postimg.cc/bNRSJgcw/Christmas.png",
+              "title": "Christmas"
+            }
+          ]
+        }
+      },
+      "id": "collection.f145fd84-7fcc-4ede-8d01-afec82a0ff92",
+      "title": "Genres",
+      "type": "collection.row"
+    },
+    {
+      "dataSource": {
+        "kind": "collection",
+        "payload": {
+          "items": [
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158796",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "7c3f7b51-7c7d-41f6-ae57-645ccd82a527",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/L5jnk6gT/20s.png",
+              "title": "20s Movies"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158791",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "5f875eea-16ce-46c4-9afb-f351bddf59af",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/br1s0NSR/10s.png",
+              "title": "10s Movies"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158792",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "b6760a14-e923-4385-a019-4ee0784c4f36",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/RhwN1VJK/00s.png",
+              "title": "00s Movies"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158793",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "c0990251-9fe6-4d55-89ad-302d8c0d7bbe",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/J7XDCKYH/90s.png",
+              "title": "90s Movies"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158794",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "baf100fe-dfe5-4d5e-ab66-22bf8f47b776",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/qBKhHQDz/80s.png",
+              "title": "80s Movies"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.158795",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "b5b4c888-5c27-44ac-be30-a051a88ffe9a",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/VvXd9L0j/70s.png",
+              "title": "70s Movies"
+            }
+          ]
+        }
+      },
+      "id": "collection.b61876ef-c18e-46ed-9ed0-0fa901c186bc",
+      "title": "Decades",
+      "type": "collection.row"
+    },
+    {
+      "dataSource": {
+        "kind": "collection",
+        "payload": {
+          "items": [
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159685",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "540aa425-3ac8-49e0-9d20-b94182eaaab0",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/65B5yJLY/warner-bros.png",
+              "title": "Warner Bros. Pictures"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159686",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "e44ec237-f9e5-4686-b2e0-a7d90bf2a165",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/TYTYpMq9/universal.png",
+              "title": "Universal Pictures"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159687",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "6ad25825-ca85-4718-891e-ade551b4fba8",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/VLzLdQBX/paramount.png",
+              "title": "Paramount Pictures"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159693",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "6e0b3684-659e-442e-8485-e42e374e9625",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/WpG1Nbr1/a24.png",
+              "title": "A24"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159684",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "f547ce81-d59f-468c-97db-8e8166bb20f6",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/0yNF111W/mgm.png",
+              "title": "Metro-Goldwyn-Mayer"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159689",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "8b6cb9f5-b456-4e07-bdd9-57cea9b32481",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/QNQd8x5t/20th-century.png",
+              "title": "20th Century Studios"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159688",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "3247a866-684b-4da6-ad25-d22aeb706e1a",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/dQ2Vstd3/columbia.png",
+              "title": "Columbia Pictures"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159690",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "4dea7536-e2a2-4b88-8cd2-78017d53fabd",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/CLwLzTHR/marvel.png",
+              "title": "Marvel Studios"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159677",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "cedfd946-2b35-4451-9553-d66fe2c7b42a",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/J7Nzr4J3/lucasfilm.png",
+              "title": "Lucasfilm"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159691",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "5070dde1-6397-4909-b18d-32ba9f6816e8",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/0292bRdw/new-line-cinema.png",
+              "title": "New Line Cinema"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159695",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "e31c431d-4483-4e92-a30e-bde405031811",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/ZKJKCtFB/miramax.png",
+              "title": "Miramax"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159692",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "f5320b7c-4d67-4751-89ae-0c26af052cf2",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/c1RLx4Yf/lionsgate.png",
+              "title": "Lionsgate"
+            }
+          ]
+        }
+      },
+      "id": "collection.bdee293d-bd71-4862-b4fe-3414bad7d362",
+      "title": "Studios",
+      "type": "collection.row"
+    },
+    {
+      "dataSource": {
+        "kind": "collection",
+        "payload": {
+          "items": [
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.160008",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "bca5dc35-e222-4419-914f-cd94b865ec7f",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/252jXrGL/IMDb-Top-Movies.avif",
+              "title": "IMDb Top Movies"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.160009",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "a442d8bb-0284-4459-af26-726ec9a57d7d",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/Y90r5ZDf/IMDb-Top-Shows.jpg",
+              "title": "IMDb Top Shows"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159982",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.159984",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "3ef6aed8-7e04-4c65-af97-29ab03ad0c74",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/85YpN4xq/Marvel.jpg",
+              "title": "Marvel Cinematic Universe"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159996",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "series::mdblist.159997",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "0ebb9ff4-d5f9-426f-940c-cf3a5165eee5",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/tJ1gxwhd/DC-Universe.jpg",
+              "title": "DC Extended Universe"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.143863",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "a4b34fdb-619a-485c-985b-6dc00f8c70a8",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/4NV92H9m/Star-Wars.jpg",
+              "title": "Star Wars Universe"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159905",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "4b71064a-affa-40e8-9229-c0641a7435fc",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/KYJcsxfm/Harry-Potter.jpg",
+              "title": "Harry Potter"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159896",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "f4f001a6-4311-413b-b42b-ac268058dea7",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/pTrWw4c0/James-Bond.jpg",
+              "title": "James Bond"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "all::trakt.list.131",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "1f67e5a6-04d8-416f-b153-12b2333af71f",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/pdRGZtHT/Mission-Impossible.jpg",
+              "title": "Mission: Impossible"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159912",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "efa94c6e-8d7b-4840-b642-43e63b945214",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/XYw1dYT0/Jurassic-World.jpg",
+              "title": "Jurassic World"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159975",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "2bc76aaa-8771-4f51-b699-bdbb51923b91",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/QxgFvJJf/TLOTR2-2.jpg",
+              "title": "The Lord of the Rings"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159901",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "1eac421e-1b9a-4f19-b572-6ff5dfd87b8b",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/6pdbnpFf/Fast-And-Furious.jpg",
+              "title": "Fast & Furious"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159893",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "9298df55-0d92-4aa6-a964-c4c2c2ad7a5f",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/cCVLMhm7/Dune.jpg",
+              "title": "Dune"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "all::trakt.list.81",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "aaae1745-1e76-43e2-aae7-6e81af146334",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/CxjrkxWy/The-Matrix.jpg",
+              "title": "The Matrix"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "all::trakt.list.1531",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "fd01dfdc-3095-4fd3-8dc2-80423f776590",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/C1J6mxhF/Planet-Of-Apes.jpg",
+              "title": "Planet of the Apes"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "all::trakt.list.995",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "a3954655-e9a8-4fea-8589-827635ebc0ce",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/mkDpqWkX/The-Avengers.jpg",
+              "title": "The Avengers"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159877",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "d8cc9d8a-5d22-41ca-8995-13f966ee920e",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/25rcwfDk/The-Bourne.jpg",
+              "title": "The Bourne"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159936",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "d89ffc79-12cc-41ce-b347-be1f4ca6902d",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/jdpDzx3L/Alien.png",
+              "title": "Alien"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "all::trakt.list.335",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "e297fd83-c7ad-4e0a-9b83-4c923212fabe",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/Ssmv6Mhq/Mad-Max2.jpg",
+              "title": "Mad Max"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159876",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "2db65a9e-e79c-4872-9388-5b4dccb5fafa",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/1zsCHZZk/Terminator2.jpg",
+              "title": "Terminator"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159906",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "5e7cdc66-2f52-458c-b3ab-3d3e6f4aa9ab",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/y8Fpc8wH/The-Hunger-Games.jpg",
+              "title": "The Hunger Games"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159945",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "b8ea9110-6cd4-4446-9461-83be815b640b",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/GmRsW3Fy/The-Conjuring-Universe.png",
+              "title": "The Conjuring Universe"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.143882",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "fa94442b-ef64-4df0-baa9-4527d803952a",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/jSz3PSGs/John-Wick.jpg",
+              "title": "John Wick"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159874",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "5af901ad-39d3-4db2-b944-5b0204626651",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/h4Jxx54Y/Resident-Evil.png",
+              "title": "Resident Evil"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159974",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "53e4e2ce-b22f-4877-871b-602233c67419",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/1tdmsBLt/Monsterverse.jpg",
+              "title": "Monsterverse"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "all::trakt.list.251",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "21224a8b-a9d6-4914-b46e-2fe890a2c63e",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/g0sMtBzV/Scary-Movie.jpg",
+              "title": "Scary Movie"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159855",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "869901bb-9b49-4c65-92bd-bee53f6818f6",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/TPf79X6P/Halloween2.jpg",
+              "title": "Halloween"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159951",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "499053fe-eb60-4282-abfc-7fa9d37bdbc5",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/50fRBCMK/Friday-The-13th2.jpg",
+              "title": "Friday the 13th"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "all::trakt.list.53",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "61c6e621-cd8c-421f-8e2a-5fb49e193c62",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/Z56CHGXK/A-Nightmare-On-Elm-Street.png",
+              "title": "A Nightmare on Elm Street"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159952",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "44cc649a-a2a5-4616-b4a0-eb904ab9d734",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/9Xv9BYrm/Saw.png",
+              "title": "Saw"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159910",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "e72633e6-d8e8-4106-8ef6-f6c866d43c1c",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/RFhSkyps/It.png",
+              "title": "It"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.162384",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "510db1d3-07ae-4622-a92a-7cc914390483",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/8CNKHVS7/The-Ring.jpg",
+              "title": "The Ring"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "all::trakt.list.977",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "926122c6-2839-457d-85ab-dc6ade896881",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/tTcqpkLZ/Paranormal-Activity.png",
+              "title": "Paranormal Activity"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159948",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "7bdfd454-c2be-44d0-af75-a265a5287a62",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/DyXZyVv1/Final-Destination.png",
+              "title": "Final Destination"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "movie::mdblist.159867",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "f81dd54a-3479-4d60-83b6-a3ae370043e3",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/MpwjCZ7s/The-Purge.png",
+              "title": "The Purge"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "all::trakt.list.76",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "5029d9ea-e2d1-4dd0-a5a8-bc777e0daa90",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/FzRCqXzf/Silent-Hill.jpg",
+              "title": "Silent Hill"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://meta.posival.com/stremio/5faf657b-00c3-42ed-9430-4970d62f3f09/manifest.json",
+                    "catalogId": "all::trakt.list.1381",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "b727771e-5bd9-4470-8d5c-3c182efec32f",
+              "imageAspect": "wide",
+              "imageURL": "https://i.postimg.cc/ZqHfsDbL/Insidious.jpg",
+              "title": "Insidious"
+            }
+          ]
+        }
+      },
+      "id": "collection.193aa8da-dbda-47cd-8054-7df199fded88",
+      "title": "Collections",
+      "type": "collection.row"
+    }
+  ]
+}
